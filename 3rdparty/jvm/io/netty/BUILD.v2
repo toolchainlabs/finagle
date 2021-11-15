@@ -1,0 +1,42 @@
+jvm_artifact(
+  name='netty4',
+  group='io.netty',
+  artifact='netty4',
+  version='TODO',
+)
+
+jvm_artifact(
+  name='netty4-codec',
+  group='io.netty',
+  artifact='netty4-codec',
+  version='TODO',
+)
+
+jvm_artifact(
+  name='netty4-codec-http',
+  group='io.netty',
+  artifact='netty4-codec-http',
+  version='TODO',
+)
+
+jvm_artifact(
+  name='netty4-codec-http2',
+  group='io.netty',
+  artifact='netty4-codec-http2',
+  version='TODO',
+)
+
+jvm_artifact(
+  name='netty4-handler-proxy',
+  group='io.netty',
+  artifact='netty4-handler-proxy',
+  version='TODO',
+)
+
+jvm_artifact(
+  name='netty4-tcnative-boringssl-static',
+  group='io.netty',
+  artifact='netty4-tcnative-boringssl-static',
+  version='TODO',
+)
+

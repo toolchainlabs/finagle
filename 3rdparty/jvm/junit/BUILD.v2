@@ -1,0 +1,7 @@
+jvm_artifact(
+  name='junit',
+  group='junit',
+  artifact='junit',
+  version='TODO',
+)
+

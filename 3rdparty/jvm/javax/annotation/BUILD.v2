@@ -1,0 +1,7 @@
+jvm_artifact(
+  name='javax.annotation-api',
+  group='javax.annotation',
+  artifact='javax.annotation-api',
+  version='TODO',
+)
+

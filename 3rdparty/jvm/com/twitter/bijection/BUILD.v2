@@ -1,0 +1,7 @@
+jvm_artifact(
+  name='core',
+  group='com.twitter.bijection',
+  artifact='core',
+  version='TODO',
+)
+

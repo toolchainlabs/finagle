@@ -1,0 +1,7 @@
+jvm_artifact(
+  name='mockito-all',
+  group='org.mockito',
+  artifact='mockito-all',
+  version='TODO',
+)
+

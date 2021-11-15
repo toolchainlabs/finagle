@@ -1,0 +1,7 @@
+jvm_artifact(
+  name='guava',
+  group='com.google.guava',
+  artifact='guava',
+  version='TODO',
+)
+

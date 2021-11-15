@@ -1,0 +1,7 @@
+jvm_artifact(
+  name='zookeeper-client',
+  group='org.apache.zookeeper',
+  artifact='zookeeper-client',
+  version='TODO',
+)
+

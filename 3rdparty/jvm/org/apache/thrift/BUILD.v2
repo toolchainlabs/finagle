@@ -1,0 +1,7 @@
+jvm_artifact(
+  name='libthrift',
+  group='org.apache.thrift',
+  artifact='libthrift',
+  version='TODO',
+)
+

@@ -1,0 +1,7 @@
+jvm_artifact(
+  name='hdrhistogram',
+  group='org.hdrhistogram',
+  artifact='hdrhistogram',
+  version='TODO',
+)
+

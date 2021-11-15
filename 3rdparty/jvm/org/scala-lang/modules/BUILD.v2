@@ -1,0 +1,7 @@
+jvm_artifact(
+  name='scala-collection-compat',
+  group='org.scala-lang.modules',
+  artifact='scala-collection-compat',
+  version='TODO',
+)
+

@@ -1,0 +1,21 @@
+jvm_artifact(
+  name='jackson-annotations',
+  group='com.fasterxml.jackson.core',
+  artifact='jackson-annotations',
+  version='TODO',
+)
+
+jvm_artifact(
+  name='jackson-core',
+  group='com.fasterxml.jackson.core',
+  artifact='jackson-core',
+  version='TODO',
+)
+
+jvm_artifact(
+  name='jackson-databind',
+  group='com.fasterxml.jackson.core',
+  artifact='jackson-databind',
+  version='TODO',
+)
+

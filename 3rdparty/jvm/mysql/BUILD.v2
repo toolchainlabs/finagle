@@ -1,0 +1,14 @@
+jvm_artifact(
+  name='mysql-connector-java',
+  group='mysql',
+  artifact='mysql-connector-java',
+  version='TODO',
+)
+
+jvm_artifact(
+  name='mysql-connector-mxj-gpl-db-files',
+  group='mysql',
+  artifact='mysql-connector-mxj-gpl-db-files',
+  version='TODO',
+)
+

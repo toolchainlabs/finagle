@@ -1,0 +1,14 @@
+jvm_artifact(
+  name='curator-framework',
+  group='org.apache.curator',
+  artifact='curator-framework',
+  version='TODO',
+)
+
+jvm_artifact(
+  name='curator-test',
+  group='org.apache.curator',
+  artifact='curator-test',
+  version='TODO',
+)
+

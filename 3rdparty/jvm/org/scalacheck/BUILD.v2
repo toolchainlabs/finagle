@@ -1,0 +1,7 @@
+jvm_artifact(
+  name='scalacheck',
+  group='org.scalacheck',
+  artifact='scalacheck',
+  version='TODO',
+)
+

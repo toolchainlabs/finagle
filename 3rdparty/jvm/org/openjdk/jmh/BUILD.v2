@@ -1,0 +1,14 @@
+jvm_artifact(
+  name='jmh-core',
+  group='org.openjdk.jmh',
+  artifact='jmh-core',
+  version='TODO',
+)
+
+jvm_artifact(
+  name='jmh-generator-annprocess',
+  group='org.openjdk.jmh',
+  artifact='jmh-generator-annprocess',
+  version='TODO',
+)
+

@@ -1,0 +1,7 @@
+jvm_artifact(
+  name='guice',
+  group='com.google.inject',
+  artifact='guice',
+  version='TODO',
+)
+

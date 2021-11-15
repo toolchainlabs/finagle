@@ -1,0 +1,7 @@
+jvm_artifact(
+  name='jackson-module-scala',
+  group='com.fasterxml.jackson.module',
+  artifact='jackson-module-scala',
+  version='TODO',
+)
+

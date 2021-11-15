@@ -1,0 +1,21 @@
+jvm_artifact(
+  name='junit',
+  group='org.scalatestplus',
+  artifact='junit',
+  version='TODO',
+)
+
+jvm_artifact(
+  name='mockito-1-10',
+  group='org.scalatestplus',
+  artifact='mockito-1-10',
+  version='TODO',
+)
+
+jvm_artifact(
+  name='scalacheck',
+  group='org.scalatestplus',
+  artifact='scalacheck',
+  version='TODO',
+)
+

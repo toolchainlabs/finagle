@@ -1,0 +1,21 @@
+jvm_artifact(
+  name='opencensus-api',
+  group='io.opencensus',
+  artifact='opencensus-api',
+  version='TODO',
+)
+
+jvm_artifact(
+  name='opencensus-contrib-http-util',
+  group='io.opencensus',
+  artifact='opencensus-contrib-http-util',
+  version='TODO',
+)
+
+jvm_artifact(
+  name='opencensus-impl',
+  group='io.opencensus',
+  artifact='opencensus-impl',
+  version='TODO',
+)
+

@@ -1,0 +1,7 @@
+jvm_artifact(
+  name='scalatest',
+  group='org.scalatest',
+  artifact='scalatest',
+  version='TODO',
+)
+
