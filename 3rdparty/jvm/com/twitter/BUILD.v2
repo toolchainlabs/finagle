@@ -1,19 +1,25 @@
-UTIL_VERSION = 'TODO'
+UTIL_VERSION = '21.10.0'
 
-def util_lib(name):
+def util_lib(name, packages=None):
     artifact_name = f'util-{name}_2.13'
     jvm_artifact(
       name=artifact_name,
       group='com.twitter',
       artifact=artifact_name,
       version=UTIL_VERSION,
-      packages=[f'com.twitter.{name}.**'],
+      packages=(packages or [f'com.twitter.{name}.**']),
     )
 
 util_lib('app')
 util_lib('cache')
 util_lib('codec')
-util_lib('core')
+util_lib('core', packages=[
+  'com.twitter.conversions.**',
+  'com.twitter.concurrent.**',
+  'com.twitter.io.**',
+  'com.twitter.service.**',
+  'com.twitter.util.**',
+])
 util_lib('hashing')
 util_lib('jvm')
 util_lib('lint')
@@ -21,6 +27,9 @@ util_lib('logging')
 util_lib('registry')
 util_lib('routing')
 util_lib('security')
-util_lib('stats')
+util_lib('stats', packages=[
+  # Not a typo.
+  'com.twitter.finagle.stats.**',
+])
 util_lib('tunable')
 util_lib('zk-test')

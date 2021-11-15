@@ -2,6 +2,6 @@ jvm_artifact(
   name='lz4-java',
   group='org.lz4',
   artifact='lz4-java',
-  version='TODO',
+  version='1.6.0',
 )
 

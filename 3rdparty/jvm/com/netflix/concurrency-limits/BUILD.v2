@@ -1,7 +1,7 @@
 jvm_artifact(
   name='concurrency-limits-core',
-  group='com.netflix.concurrency',
+  group='com.netflix.concurrency-limits',
   artifact='concurrency-limits-core',
-  version='TODO',
+  version='0.3.0',
 )
 

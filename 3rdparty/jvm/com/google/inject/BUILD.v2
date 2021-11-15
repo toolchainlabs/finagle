@@ -2,6 +2,7 @@ jvm_artifact(
   name='guice',
   group='com.google.inject',
   artifact='guice',
-  version='TODO',
+  # TODO: A guess.
+  version='3.0',
 )
 

@@ -1,14 +1,20 @@
+# TODO: Not mentioned in `build.sbt`: a guess.
+JVM_VERSION = '1.27'
+
 jvm_artifact(
   name='jmh-core',
   group='org.openjdk.jmh',
   artifact='jmh-core',
-  version='TODO',
+  version=JVM_VERSION,
 )
 
 jvm_artifact(
   name='jmh-generator-annprocess',
   group='org.openjdk.jmh',
   artifact='jmh-generator-annprocess',
-  version='TODO',
+  version=JVM_VERSION,
+  packages=[
+    'org.openjdk.jmh.generators.**',
+  ]
 )
 

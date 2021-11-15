@@ -2,6 +2,6 @@ jvm_artifact(
   name='scala-library',
   group='org.scala-lang',
   artifact='scala-library',
-  version='TODO',
+  version='2.13.6',
 )
 

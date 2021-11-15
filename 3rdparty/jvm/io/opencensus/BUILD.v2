@@ -1,21 +1,29 @@
+OPENCENSUS_VERSION = "0.24.0"
+
 jvm_artifact(
   name='opencensus-api',
   group='io.opencensus',
   artifact='opencensus-api',
-  version='TODO',
+  version=OPENCENSUS_VERSION,
 )
 
 jvm_artifact(
   name='opencensus-contrib-http-util',
   group='io.opencensus',
   artifact='opencensus-contrib-http-util',
-  version='TODO',
+  version=OPENCENSUS_VERSION,
+  packages=[
+    'io.opencensus.contrib.http.**',
+  ],
 )
 
 jvm_artifact(
   name='opencensus-impl',
   group='io.opencensus',
   artifact='opencensus-impl',
-  version='TODO',
+  version=OPENCENSUS_VERSION,
+  packages=[
+    'io.opencensus.impl.**',
+  ],
 )
 

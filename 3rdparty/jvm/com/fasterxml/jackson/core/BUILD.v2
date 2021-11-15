@@ -1,21 +1,29 @@
+JACKSON_VERSION = '2.11.4'
+
 jvm_artifact(
   name='jackson-annotations',
   group='com.fasterxml.jackson.core',
   artifact='jackson-annotations',
-  version='TODO',
+  version=JACKSON_VERSION,
+  packages=[
+    'com.fasterxml.jackson.annotation.**',
+  ],
 )
 
 jvm_artifact(
   name='jackson-core',
   group='com.fasterxml.jackson.core',
   artifact='jackson-core',
-  version='TODO',
+  version=JACKSON_VERSION,
 )
 
 jvm_artifact(
   name='jackson-databind',
   group='com.fasterxml.jackson.core',
   artifact='jackson-databind',
-  version='TODO',
+  version=JACKSON_VERSION,
+  packages=[
+    'com.fasterxml.jackson.databind.**',
+  ],
 )
 

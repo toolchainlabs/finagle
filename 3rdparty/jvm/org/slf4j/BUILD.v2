@@ -2,6 +2,6 @@ jvm_artifact(
   name='slf4j-api',
   group='org.slf4j',
   artifact='slf4j-api',
-  version='TODO',
+  version='1.7.30',
 )
 

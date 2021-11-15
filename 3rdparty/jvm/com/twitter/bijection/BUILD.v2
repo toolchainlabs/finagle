@@ -1,7 +1,8 @@
 jvm_artifact(
-  name='core',
-  group='com.twitter.bijection',
-  artifact='core',
-  version='TODO',
+  name='bijection-core_2.13',
+  group='com.twitter',
+  artifact='bijection-core_2.13',
+  version='0.9.7',
+  packages=['com.twitter.bijection.**'],
 )
 

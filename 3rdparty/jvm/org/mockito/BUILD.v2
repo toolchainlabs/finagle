@@ -2,6 +2,7 @@ jvm_artifact(
   name='mockito-all',
   group='org.mockito',
   artifact='mockito-all',
-  version='TODO',
+  # TODO: Guess based on the artifact of `scalatestplus`.
+  version='1.10.19',
 )
 

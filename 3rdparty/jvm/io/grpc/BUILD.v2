@@ -2,6 +2,6 @@ jvm_artifact(
   name='grpc-context',
   group='io.grpc',
   artifact='grpc-context',
-  version='TODO',
+  version='1.13.2',
 )
 

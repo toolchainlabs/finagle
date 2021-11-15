@@ -1,0 +1,3385 @@
+[
+    {
+        "coord": {
+            "group": "com.fasterxml.jackson.core",
+            "artifact": "jackson-annotations",
+            "version": "2.11.4",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "com.fasterxml.jackson.core_jackson-annotations_2.11.4.jar",
+        "file_digest": {
+            "fingerprint": "2ab76f64048673675f26ddd1008a32889855d8a126273edae2aeee516785a1ec",
+            "serialized_bytes_length": 72086
+        }
+    },
+    {
+        "coord": {
+            "group": "com.fasterxml.jackson.core",
+            "artifact": "jackson-core",
+            "version": "2.11.4",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "com.fasterxml.jackson.core_jackson-core_2.11.4.jar",
+        "file_digest": {
+            "fingerprint": "e1dda269f16f3be00578f3a46c754f098245c7a480b86e07030b6ee7087ee1f1",
+            "serialized_bytes_length": 351519
+        }
+    },
+    {
+        "coord": {
+            "group": "com.fasterxml.jackson.core",
+            "artifact": "jackson-databind",
+            "version": "2.11.4",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-annotations",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-core",
+                "version": "2.11.4",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-annotations",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-core",
+                "version": "2.11.4",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "com.fasterxml.jackson.core_jackson-databind_2.11.4.jar",
+        "file_digest": {
+            "fingerprint": "dc64fa3907bd299f29ad6116169e583333d04404b23a0f81ed679afa8e2a2ee8",
+            "serialized_bytes_length": 1421841
+        }
+    },
+    {
+        "coord": {
+            "group": "com.fasterxml.jackson.module",
+            "artifact": "jackson-module-paranamer",
+            "version": "2.11.4",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-databind",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.thoughtworks.paranamer",
+                "artifact": "paranamer",
+                "version": "2.8",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-databind",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.thoughtworks.paranamer",
+                "artifact": "paranamer",
+                "version": "2.8",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-annotations",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-core",
+                "version": "2.11.4",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "com.fasterxml.jackson.module_jackson-module-paranamer_2.11.4.jar",
+        "file_digest": {
+            "fingerprint": "45f1e93cd304c4d0e6b744875b03f40c9db9ed773e6c68168664c7cad2e23267",
+            "serialized_bytes_length": 43669
+        }
+    },
+    {
+        "coord": {
+            "group": "com.fasterxml.jackson.module",
+            "artifact": "jackson-module-scala_2.13",
+            "version": "2.11.4",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-core",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-annotations",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-databind",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.module",
+                "artifact": "jackson-module-paranamer",
+                "version": "2.11.4",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "com.thoughtworks.paranamer",
+                "artifact": "paranamer",
+                "version": "2.8",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-core",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-annotations",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-databind",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.module",
+                "artifact": "jackson-module-paranamer",
+                "version": "2.11.4",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "com.fasterxml.jackson.module_jackson-module-scala_2.13_2.11.4.jar",
+        "file_digest": {
+            "fingerprint": "c99c884e205195e4693cb65d8583761c814a5d420f30a17901798d667d1b37dc",
+            "serialized_bytes_length": 350364
+        }
+    },
+    {
+        "coord": {
+            "group": "com.github.ben-manes.caffeine",
+            "artifact": "caffeine",
+            "version": "2.9.1",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "com.google.errorprone",
+                "artifact": "error_prone_annotations",
+                "version": "2.5.1",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.checkerframework",
+                "artifact": "checker-qual",
+                "version": "3.10.0",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "com.google.errorprone",
+                "artifact": "error_prone_annotations",
+                "version": "2.5.1",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.checkerframework",
+                "artifact": "checker-qual",
+                "version": "3.10.0",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "com.github.ben-manes.caffeine_caffeine_2.9.1.jar",
+        "file_digest": {
+            "fingerprint": "fbbdb8bce0aa7140271a3a48e0b2ebfa9cec6f0e0c0ebab9031b740bd137f49a",
+            "serialized_bytes_length": 924689
+        }
+    },
+    {
+        "coord": {
+            "group": "com.google.code.findbugs",
+            "artifact": "jsr305",
+            "version": "3.0.2",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "com.google.code.findbugs_jsr305_3.0.2.jar",
+        "file_digest": {
+            "fingerprint": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7",
+            "serialized_bytes_length": 19936
+        }
+    },
+    {
+        "coord": {
+            "group": "com.google.code.gson",
+            "artifact": "gson",
+            "version": "2.3.1",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "com.google.code.gson_gson_2.3.1.jar",
+        "file_digest": {
+            "fingerprint": "13f44a2f6ead058da80a91ee650c073871942468e684a9bf6a0d0319138924ce",
+            "serialized_bytes_length": 210856
+        }
+    },
+    {
+        "coord": {
+            "group": "com.google.errorprone",
+            "artifact": "error_prone_annotations",
+            "version": "2.5.1",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "com.google.errorprone_error_prone_annotations_2.5.1.jar",
+        "file_digest": {
+            "fingerprint": "ff80626baaf12a09342befd4e84cba9d50662f5fcd7f7a9b3490a6b7cf87e66c",
+            "serialized_bytes_length": 13854
+        }
+    },
+    {
+        "coord": {
+            "group": "com.google.guava",
+            "artifact": "guava",
+            "version": "26.0-android",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "com.google.code.findbugs",
+                "artifact": "jsr305",
+                "version": "3.0.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.codehaus.mojo",
+                "artifact": "animal-sniffer-annotations",
+                "version": "1.14",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.checkerframework",
+                "artifact": "checker-compat-qual",
+                "version": "2.5.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.google.j2objc",
+                "artifact": "j2objc-annotations",
+                "version": "1.1",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.google.errorprone",
+                "artifact": "error_prone_annotations",
+                "version": "2.5.1",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "com.google.code.findbugs",
+                "artifact": "jsr305",
+                "version": "3.0.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.codehaus.mojo",
+                "artifact": "animal-sniffer-annotations",
+                "version": "1.14",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.checkerframework",
+                "artifact": "checker-compat-qual",
+                "version": "2.5.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.google.j2objc",
+                "artifact": "j2objc-annotations",
+                "version": "1.1",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.google.errorprone",
+                "artifact": "error_prone_annotations",
+                "version": "2.5.1",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "com.google.guava_guava_26.0-android.jar",
+        "file_digest": {
+            "fingerprint": "1d044ebb866ef08b7d04e998b4260c9b52fab6e6d6b68d207859486bb3686cd5",
+            "serialized_bytes_length": 2597954
+        }
+    },
+    {
+        "coord": {
+            "group": "com.google.j2objc",
+            "artifact": "j2objc-annotations",
+            "version": "1.1",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "com.google.j2objc_j2objc-annotations_1.1.jar",
+        "file_digest": {
+            "fingerprint": "2994a7eb78f2710bd3d3bfb639b2c94e219cedac0d4d084d516e78c16dddecf6",
+            "serialized_bytes_length": 8782
+        }
+    },
+    {
+        "coord": {
+            "group": "com.thoughtworks.paranamer",
+            "artifact": "paranamer",
+            "version": "2.8",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "com.thoughtworks.paranamer_paranamer_2.8.jar",
+        "file_digest": {
+            "fingerprint": "688cb118a6021d819138e855208c956031688be4b47a24bb615becc63acedf07",
+            "serialized_bytes_length": 34654
+        }
+    },
+    {
+        "coord": {
+            "group": "com.twitter",
+            "artifact": "bijection-core_2.13",
+            "version": "0.9.7",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "com.twitter_bijection-core_2.13_0.9.7.jar",
+        "file_digest": {
+            "fingerprint": "8d87fafa1099b2a7515fbfd1c014b9c77eb3c6384969dc076bd497db93be6b8f",
+            "serialized_bytes_length": 713621
+        }
+    },
+    {
+        "coord": {
+            "group": "com.twitter",
+            "artifact": "util-app-lifecycle_2.13",
+            "version": "21.10.0",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "com.twitter",
+                "artifact": "util-core_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-collection-compat_2.13",
+                "version": "2.4.4",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-parser-combinators_2.13",
+                "version": "1.1.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-function_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-reflect",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-core_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-collection-compat_2.13",
+                "version": "2.4.4",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "com.twitter_util-app-lifecycle_2.13_21.10.0.jar",
+        "file_digest": {
+            "fingerprint": "68b0359ad73e75010b817859db2ab9d03ac19705213114f8a986d4fc0a46736a",
+            "serialized_bytes_length": 27872
+        }
+    },
+    {
+        "coord": {
+            "group": "com.twitter",
+            "artifact": "util-app_2.13",
+            "version": "21.10.0",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-registry_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-core_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-app-lifecycle_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-collection-compat_2.13",
+                "version": "2.4.4",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-parser-combinators_2.13",
+                "version": "1.1.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-function_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-reflect",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-registry_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-core_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-app-lifecycle_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-collection-compat_2.13",
+                "version": "2.4.4",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "com.twitter_util-app_2.13_21.10.0.jar",
+        "file_digest": {
+            "fingerprint": "0abd931f1b11d48f99b7c0d84e990e97eb8048fd730a676d12e4ebdf66427ad5",
+            "serialized_bytes_length": 162013
+        }
+    },
+    {
+        "coord": {
+            "group": "com.twitter",
+            "artifact": "util-cache_2.13",
+            "version": "21.10.0",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "com.google.code.findbugs",
+                "artifact": "jsr305",
+                "version": "3.0.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-core_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-collection-compat_2.13",
+                "version": "2.4.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.github.ben-manes.caffeine",
+                "artifact": "caffeine",
+                "version": "2.9.1",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-parser-combinators_2.13",
+                "version": "1.1.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-function_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.google.code.findbugs",
+                "artifact": "jsr305",
+                "version": "3.0.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-reflect",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.checkerframework",
+                "artifact": "checker-qual",
+                "version": "3.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-core_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-collection-compat_2.13",
+                "version": "2.4.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.google.errorprone",
+                "artifact": "error_prone_annotations",
+                "version": "2.5.1",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.github.ben-manes.caffeine",
+                "artifact": "caffeine",
+                "version": "2.9.1",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "com.twitter_util-cache_2.13_21.10.0.jar",
+        "file_digest": {
+            "fingerprint": "7354288a58859b2b121cb403c1f77362fc591f226ebb0c2ba2a9072186046f6c",
+            "serialized_bytes_length": 28502
+        }
+    },
+    {
+        "coord": {
+            "group": "com.twitter",
+            "artifact": "util-core_2.13",
+            "version": "21.10.0",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-parser-combinators_2.13",
+                "version": "1.1.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-function_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-reflect",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-collection-compat_2.13",
+                "version": "2.4.4",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-parser-combinators_2.13",
+                "version": "1.1.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-function_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-reflect",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-collection-compat_2.13",
+                "version": "2.4.4",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "com.twitter_util-core_2.13_21.10.0.jar",
+        "file_digest": {
+            "fingerprint": "b93a193bb056c810cd14d051dac0f93081bb94f40febccbb505d289fd919f0fc",
+            "serialized_bytes_length": 1324717
+        }
+    },
+    {
+        "coord": {
+            "group": "com.twitter",
+            "artifact": "util-function_2.13",
+            "version": "21.10.0",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-collection-compat_2.13",
+                "version": "2.4.4",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-collection-compat_2.13",
+                "version": "2.4.4",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "com.twitter_util-function_2.13_21.10.0.jar",
+        "file_digest": {
+            "fingerprint": "ca7cf95d5db0347d362942a3fb5643c7151baa96a369ea6a7740f4ce2eca6887",
+            "serialized_bytes_length": 2673
+        }
+    },
+    {
+        "coord": {
+            "group": "com.twitter",
+            "artifact": "util-hashing_2.13",
+            "version": "21.10.0",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-collection-compat_2.13",
+                "version": "2.4.4",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-collection-compat_2.13",
+                "version": "2.4.4",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "com.twitter_util-hashing_2.13_21.10.0.jar",
+        "file_digest": {
+            "fingerprint": "00168e39a95fffac84f83738bd75e6a3df0fffd59f22862a0e37c218f781d48a",
+            "serialized_bytes_length": 51519
+        }
+    },
+    {
+        "coord": {
+            "group": "com.twitter",
+            "artifact": "util-jvm_2.13",
+            "version": "21.10.0",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "com.twitter",
+                "artifact": "util-app_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-stats_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-core_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-collection-compat_2.13",
+                "version": "2.4.4",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-parser-combinators_2.13",
+                "version": "1.1.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-function_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.thoughtworks.paranamer",
+                "artifact": "paranamer",
+                "version": "2.8",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-core",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-annotations",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.google.code.findbugs",
+                "artifact": "jsr305",
+                "version": "3.0.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-lint_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-app_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-reflect",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-registry_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.checkerframework",
+                "artifact": "checker-qual",
+                "version": "3.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-stats_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-core_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-databind",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.module",
+                "artifact": "jackson-module-scala_2.13",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-app-lifecycle_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-collection-compat_2.13",
+                "version": "2.4.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.google.errorprone",
+                "artifact": "error_prone_annotations",
+                "version": "2.5.1",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.github.ben-manes.caffeine",
+                "artifact": "caffeine",
+                "version": "2.9.1",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.module",
+                "artifact": "jackson-module-paranamer",
+                "version": "2.11.4",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "com.twitter_util-jvm_2.13_21.10.0.jar",
+        "file_digest": {
+            "fingerprint": "58726f891ea7ee0e9347dadcf3ff7b3202cf8050229ef85f193f050efa944058",
+            "serialized_bytes_length": 134662
+        }
+    },
+    {
+        "coord": {
+            "group": "com.twitter",
+            "artifact": "util-lint_2.13",
+            "version": "21.10.0",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "com.twitter",
+                "artifact": "util-core_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-collection-compat_2.13",
+                "version": "2.4.4",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-parser-combinators_2.13",
+                "version": "1.1.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-function_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-reflect",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-core_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-collection-compat_2.13",
+                "version": "2.4.4",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "com.twitter_util-lint_2.13_21.10.0.jar",
+        "file_digest": {
+            "fingerprint": "2139c4f3e7c98aa91c16f982322d4064a5c03714aa00f0188b19c04184be9763",
+            "serialized_bytes_length": 17870
+        }
+    },
+    {
+        "coord": {
+            "group": "com.twitter",
+            "artifact": "util-logging_2.13",
+            "version": "21.10.0",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "com.twitter",
+                "artifact": "util-app_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-stats_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-core_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-collection-compat_2.13",
+                "version": "2.4.4",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-parser-combinators_2.13",
+                "version": "1.1.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-function_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.thoughtworks.paranamer",
+                "artifact": "paranamer",
+                "version": "2.8",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-core",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-annotations",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.google.code.findbugs",
+                "artifact": "jsr305",
+                "version": "3.0.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-lint_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-app_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-reflect",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-registry_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.checkerframework",
+                "artifact": "checker-qual",
+                "version": "3.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-stats_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-core_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-databind",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.module",
+                "artifact": "jackson-module-scala_2.13",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-app-lifecycle_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-collection-compat_2.13",
+                "version": "2.4.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.google.errorprone",
+                "artifact": "error_prone_annotations",
+                "version": "2.5.1",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.github.ben-manes.caffeine",
+                "artifact": "caffeine",
+                "version": "2.9.1",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.module",
+                "artifact": "jackson-module-paranamer",
+                "version": "2.11.4",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "com.twitter_util-logging_2.13_21.10.0.jar",
+        "file_digest": {
+            "fingerprint": "8e5570bf01d52415a3d5e73fe4f0c17d9f0f9571feac658b46e8f28366886690",
+            "serialized_bytes_length": 159056
+        }
+    },
+    {
+        "coord": {
+            "group": "com.twitter",
+            "artifact": "util-registry_2.13",
+            "version": "21.10.0",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "com.twitter",
+                "artifact": "util-core_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-collection-compat_2.13",
+                "version": "2.4.4",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-parser-combinators_2.13",
+                "version": "1.1.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-function_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-reflect",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-core_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-collection-compat_2.13",
+                "version": "2.4.4",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "com.twitter_util-registry_2.13_21.10.0.jar",
+        "file_digest": {
+            "fingerprint": "361bc9aa00828126f113669e9410d718ef3ce9b3187fa8da8af68dbbc19b9bc3",
+            "serialized_bytes_length": 30822
+        }
+    },
+    {
+        "coord": {
+            "group": "com.twitter",
+            "artifact": "util-stats_2.13",
+            "version": "21.10.0",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-core",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.google.code.findbugs",
+                "artifact": "jsr305",
+                "version": "3.0.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-lint_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-app_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-core_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-databind",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.module",
+                "artifact": "jackson-module-scala_2.13",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-collection-compat_2.13",
+                "version": "2.4.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.github.ben-manes.caffeine",
+                "artifact": "caffeine",
+                "version": "2.9.1",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-parser-combinators_2.13",
+                "version": "1.1.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-function_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.thoughtworks.paranamer",
+                "artifact": "paranamer",
+                "version": "2.8",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-core",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-annotations",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.google.code.findbugs",
+                "artifact": "jsr305",
+                "version": "3.0.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-lint_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-app_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-reflect",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-registry_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.checkerframework",
+                "artifact": "checker-qual",
+                "version": "3.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-core_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.core",
+                "artifact": "jackson-databind",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.module",
+                "artifact": "jackson-module-scala_2.13",
+                "version": "2.11.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.twitter",
+                "artifact": "util-app-lifecycle_2.13",
+                "version": "21.10.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-collection-compat_2.13",
+                "version": "2.4.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.google.errorprone",
+                "artifact": "error_prone_annotations",
+                "version": "2.5.1",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.github.ben-manes.caffeine",
+                "artifact": "caffeine",
+                "version": "2.9.1",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.fasterxml.jackson.module",
+                "artifact": "jackson-module-paranamer",
+                "version": "2.11.4",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "com.twitter_util-stats_2.13_21.10.0.jar",
+        "file_digest": {
+            "fingerprint": "2c0a12239216afd797728e4c2042367855623157df3dad43656eeb34dc394e99",
+            "serialized_bytes_length": 346316
+        }
+    },
+    {
+        "coord": {
+            "group": "commons-codec",
+            "artifact": "commons-codec",
+            "version": "1.9",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "commons-codec_commons-codec_1.9.jar",
+        "file_digest": {
+            "fingerprint": "ad19d2601c3abf0b946b5c3a4113e226a8c1e3305e395b90013b78dd94a723ce",
+            "serialized_bytes_length": 263965
+        }
+    },
+    {
+        "coord": {
+            "group": "commons-logging",
+            "artifact": "commons-logging",
+            "version": "1.2",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "commons-logging_commons-logging_1.2.jar",
+        "file_digest": {
+            "fingerprint": "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636",
+            "serialized_bytes_length": 61829
+        }
+    },
+    {
+        "coord": {
+            "group": "io.grpc",
+            "artifact": "grpc-context",
+            "version": "1.22.1",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "io.grpc_grpc-context_1.22.1.jar",
+        "file_digest": {
+            "fingerprint": "780a3937705b3c92e07292c97d065b2676fcbe031eae250f1622b026485f294e",
+            "serialized_bytes_length": 29411
+        }
+    },
+    {
+        "coord": {
+            "group": "io.netty",
+            "artifact": "netty-buffer",
+            "version": "4.1.66.Final",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "io.netty",
+                "artifact": "netty-common",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "io.netty",
+                "artifact": "netty-common",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "io.netty_netty-buffer_4.1.66.Final.jar",
+        "file_digest": {
+            "fingerprint": "99af46a08546da9e03cb5cd6e3daac624771bb08663f304d60a988e27da59cef",
+            "serialized_bytes_length": 301747
+        }
+    },
+    {
+        "coord": {
+            "group": "io.netty",
+            "artifact": "netty-codec",
+            "version": "4.1.66.Final",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "io.netty",
+                "artifact": "netty-buffer",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-common",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-transport",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "io.netty",
+                "artifact": "netty-buffer",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-common",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-transport",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-resolver",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "io.netty_netty-codec_4.1.66.Final.jar",
+        "file_digest": {
+            "fingerprint": "d852eab012b0f06c94a625f96404e32e8fe829708a84e10ae71b2d8dfab47f9e",
+            "serialized_bytes_length": 335445
+        }
+    },
+    {
+        "coord": {
+            "group": "io.netty",
+            "artifact": "netty-common",
+            "version": "4.1.66.Final",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "io.netty_netty-common_4.1.66.Final.jar",
+        "file_digest": {
+            "fingerprint": "bf7e66d832e62dd2cbe7802a3d45ece7f8c6de2958e69d85fae0149cb0820459",
+            "serialized_bytes_length": 651268
+        }
+    },
+    {
+        "coord": {
+            "group": "io.netty",
+            "artifact": "netty-handler",
+            "version": "4.1.66.Final",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "io.netty",
+                "artifact": "netty-resolver",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-codec",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-transport",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-buffer",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-common",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "io.netty",
+                "artifact": "netty-resolver",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-codec",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-transport",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-buffer",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-common",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "io.netty_netty-handler_4.1.66.Final.jar",
+        "file_digest": {
+            "fingerprint": "b67da9271458afb434478d86be9f2736a5be2981e49eda2429a9962b10684f7f",
+            "serialized_bytes_length": 524455
+        }
+    },
+    {
+        "coord": {
+            "group": "io.netty",
+            "artifact": "netty-resolver",
+            "version": "4.1.66.Final",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "io.netty",
+                "artifact": "netty-common",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "io.netty",
+                "artifact": "netty-common",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "io.netty_netty-resolver_4.1.66.Final.jar",
+        "file_digest": {
+            "fingerprint": "e89040e9a760f13ec6c05175d633254dd4ea603b204f7a442744485b3c46d1eb",
+            "serialized_bytes_length": 37008
+        }
+    },
+    {
+        "coord": {
+            "group": "io.netty",
+            "artifact": "netty-transport-native-epoll",
+            "version": "4.1.42.Final",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "io.netty",
+                "artifact": "netty-buffer",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-common",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-transport",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-transport-native-unix-common",
+                "version": "4.1.42.Final",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "io.netty",
+                "artifact": "netty-buffer",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-common",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-transport",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-transport-native-unix-common",
+                "version": "4.1.42.Final",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "io.netty_netty-transport-native-epoll_4.1.42.Final.jar",
+        "file_digest": {
+            "fingerprint": "3c7d659b3bd773e0ea9b7517d2d6baffa275a3d2ae8eb4c10cb8f0a7724b11d5",
+            "serialized_bytes_length": 124118
+        }
+    },
+    {
+        "coord": {
+            "group": "io.netty",
+            "artifact": "netty-transport-native-unix-common",
+            "version": "4.1.42.Final",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "io.netty",
+                "artifact": "netty-buffer",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-common",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-transport",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "io.netty",
+                "artifact": "netty-buffer",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-common",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-transport",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "io.netty_netty-transport-native-unix-common_4.1.42.Final.jar",
+        "file_digest": {
+            "fingerprint": "508fba9128da78bd775ba854d71917ceb2b00b95a7600254f54a277a06761a86",
+            "serialized_bytes_length": 32993
+        }
+    },
+    {
+        "coord": {
+            "group": "io.netty",
+            "artifact": "netty-transport",
+            "version": "4.1.66.Final",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "io.netty",
+                "artifact": "netty-buffer",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-common",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-resolver",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "io.netty",
+                "artifact": "netty-buffer",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-common",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-resolver",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "io.netty_netty-transport_4.1.66.Final.jar",
+        "file_digest": {
+            "fingerprint": "59e0c2f8e55e0c1d5df254226395a865af87a9e11f8b96d2dff92660b1dbcfc1",
+            "serialized_bytes_length": 478383
+        }
+    },
+    {
+        "coord": {
+            "group": "io.opencensus",
+            "artifact": "opencensus-api",
+            "version": "0.24.0",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "io.grpc",
+                "artifact": "grpc-context",
+                "version": "1.22.1",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "io.grpc",
+                "artifact": "grpc-context",
+                "version": "1.22.1",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "io.opencensus_opencensus-api_0.24.0.jar",
+        "file_digest": {
+            "fingerprint": "f561b1cc2673844288e596ddf5bb6596868a8472fd2cb8993953fc5c034b2352",
+            "serialized_bytes_length": 351668
+        }
+    },
+    {
+        "coord": {
+            "group": "io.opencensus",
+            "artifact": "opencensus-contrib-http-util",
+            "version": "0.24.0",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "com.google.guava",
+                "artifact": "guava",
+                "version": "26.0-android",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.opencensus",
+                "artifact": "opencensus-api",
+                "version": "0.24.0",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "com.google.code.findbugs",
+                "artifact": "jsr305",
+                "version": "3.0.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.opencensus",
+                "artifact": "opencensus-api",
+                "version": "0.24.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.grpc",
+                "artifact": "grpc-context",
+                "version": "1.22.1",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.codehaus.mojo",
+                "artifact": "animal-sniffer-annotations",
+                "version": "1.14",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.checkerframework",
+                "artifact": "checker-compat-qual",
+                "version": "2.5.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.google.j2objc",
+                "artifact": "j2objc-annotations",
+                "version": "1.1",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.google.errorprone",
+                "artifact": "error_prone_annotations",
+                "version": "2.5.1",
+                "packaging": "jar"
+            },
+            {
+                "group": "com.google.guava",
+                "artifact": "guava",
+                "version": "26.0-android",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "io.opencensus_opencensus-contrib-http-util_0.24.0.jar",
+        "file_digest": {
+            "fingerprint": "7155273bbb1ed3d477ea33cf19d7bbc0b285ff395f43b29ae576722cf247000f",
+            "serialized_bytes_length": 23420
+        }
+    },
+    {
+        "coord": {
+            "group": "javax.annotation",
+            "artifact": "javax.annotation-api",
+            "version": "1.3.2",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "javax.annotation_javax.annotation-api_1.3.2.jar",
+        "file_digest": {
+            "fingerprint": "e04ba5195bcd555dc95650f7cc614d151e4bcd52d29a10b8aa2197f3ab89ab9b",
+            "serialized_bytes_length": 26586
+        }
+    },
+    {
+        "coord": {
+            "group": "junit",
+            "artifact": "junit",
+            "version": "4.12",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "org.hamcrest",
+                "artifact": "hamcrest-core",
+                "version": "1.3",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.hamcrest",
+                "artifact": "hamcrest-core",
+                "version": "1.3",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "junit_junit_4.12.jar",
+        "file_digest": {
+            "fingerprint": "59721f0805e223d84b90677887d9ff567dc534d7c502ca903c0c2b17f05c116a",
+            "serialized_bytes_length": 314932
+        }
+    },
+    {
+        "coord": {
+            "group": "log4j",
+            "artifact": "log4j",
+            "version": "1.2.17",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "log4j_log4j_1.2.17.jar",
+        "file_digest": {
+            "fingerprint": "1d31696445697720527091754369082a6651bd49781b6005deb94e56753406f9",
+            "serialized_bytes_length": 489884
+        }
+    },
+    {
+        "coord": {
+            "group": "net.sf.jopt-simple",
+            "artifact": "jopt-simple",
+            "version": "4.6",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "net.sf.jopt-simple_jopt-simple_4.6.jar",
+        "file_digest": {
+            "fingerprint": "3fcfbe3203c2ea521bf7640484fd35d6303186ea2e08e72f032d640ca067ffda",
+            "serialized_bytes_length": 62477
+        }
+    },
+    {
+        "coord": {
+            "group": "org.apache.commons",
+            "artifact": "commons-math3",
+            "version": "3.2",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "org.apache.commons_commons-math3_3.2.jar",
+        "file_digest": {
+            "fingerprint": "6268a9a0ea3e769fc493a21446664c0ef668e48c93d126791f6f3f757978fee2",
+            "serialized_bytes_length": 1692782
+        }
+    },
+    {
+        "coord": {
+            "group": "org.apache.commons",
+            "artifact": "commons-math",
+            "version": "2.2",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "org.apache.commons_commons-math_2.2.jar",
+        "file_digest": {
+            "fingerprint": "15993bb2a3cf50f3291b40fc980a3166a0984e7b5f1abbe5232151fd94954584",
+            "serialized_bytes_length": 988514
+        }
+    },
+    {
+        "coord": {
+            "group": "org.apache.curator",
+            "artifact": "curator-client",
+            "version": "2.8.0",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "com.google.guava",
+                "artifact": "guava",
+                "version": "26.0-android",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.apache.zookeeper",
+                "artifact": "zookeeper",
+                "version": "3.5.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.slf4j",
+                "artifact": "slf4j-api",
+                "version": "1.7.25",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "com.google.guava",
+                "artifact": "guava",
+                "version": "26.0-android",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.apache.zookeeper",
+                "artifact": "zookeeper",
+                "version": "3.5.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.slf4j",
+                "artifact": "slf4j-api",
+                "version": "1.7.25",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "org.apache.curator_curator-client_2.8.0.jar",
+        "file_digest": {
+            "fingerprint": "80ea85c2db916da0171c93c84418bad429b26b7be716abd331f670e269850dbb",
+            "serialized_bytes_length": 69496
+        }
+    },
+    {
+        "coord": {
+            "group": "org.apache.curator",
+            "artifact": "curator-framework",
+            "version": "2.8.0",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "com.google.guava",
+                "artifact": "guava",
+                "version": "26.0-android",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.apache.curator",
+                "artifact": "curator-client",
+                "version": "2.8.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.apache.zookeeper",
+                "artifact": "zookeeper",
+                "version": "3.5.6",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "com.google.guava",
+                "artifact": "guava",
+                "version": "26.0-android",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.apache.curator",
+                "artifact": "curator-client",
+                "version": "2.8.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.apache.zookeeper",
+                "artifact": "zookeeper",
+                "version": "3.5.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.slf4j",
+                "artifact": "slf4j-api",
+                "version": "1.7.25",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "org.apache.curator_curator-framework_2.8.0.jar",
+        "file_digest": {
+            "fingerprint": "955a367d71304944018f1d0cb0ab875ae6957705458b0c66798fb19bf7bc1823",
+            "serialized_bytes_length": 186396
+        }
+    },
+    {
+        "coord": {
+            "group": "org.apache.curator",
+            "artifact": "curator-test",
+            "version": "2.8.0",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "com.google.guava",
+                "artifact": "guava",
+                "version": "26.0-android",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.apache.commons",
+                "artifact": "commons-math",
+                "version": "2.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.apache.zookeeper",
+                "artifact": "zookeeper",
+                "version": "3.5.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.javassist",
+                "artifact": "javassist",
+                "version": "3.18.1-GA",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "com.google.guava",
+                "artifact": "guava",
+                "version": "26.0-android",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.apache.commons",
+                "artifact": "commons-math",
+                "version": "2.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.apache.zookeeper",
+                "artifact": "zookeeper",
+                "version": "3.5.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.javassist",
+                "artifact": "javassist",
+                "version": "3.18.1-GA",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "org.apache.curator_curator-test_2.8.0.jar",
+        "file_digest": {
+            "fingerprint": "3c830dc435a611b03fe35a79a6f4556c9ea221bc300d8bd55d503c1c28bfbc31",
+            "serialized_bytes_length": 39879
+        }
+    },
+    {
+        "coord": {
+            "group": "org.apache.httpcomponents",
+            "artifact": "httpclient",
+            "version": "4.4.1",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "commons-codec",
+                "artifact": "commons-codec",
+                "version": "1.9",
+                "packaging": "jar"
+            },
+            {
+                "group": "commons-logging",
+                "artifact": "commons-logging",
+                "version": "1.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.apache.httpcomponents",
+                "artifact": "httpcore",
+                "version": "4.4.1",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "commons-codec",
+                "artifact": "commons-codec",
+                "version": "1.9",
+                "packaging": "jar"
+            },
+            {
+                "group": "commons-logging",
+                "artifact": "commons-logging",
+                "version": "1.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.apache.httpcomponents",
+                "artifact": "httpcore",
+                "version": "4.4.1",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "org.apache.httpcomponents_httpclient_4.4.1.jar",
+        "file_digest": {
+            "fingerprint": "b2958ffb74f691e108abe69af0002ccff90ba326420596b1aab5bb0f63c31ef9",
+            "serialized_bytes_length": 720931
+        }
+    },
+    {
+        "coord": {
+            "group": "org.apache.httpcomponents",
+            "artifact": "httpcore",
+            "version": "4.4.1",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "org.apache.httpcomponents_httpcore_4.4.1.jar",
+        "file_digest": {
+            "fingerprint": "dd1390c17d40f760f7e51bb20523a8d63deb69e94babeaf567eb76ecd2cad422",
+            "serialized_bytes_length": 322234
+        }
+    },
+    {
+        "coord": {
+            "group": "org.apache.thrift",
+            "artifact": "libthrift",
+            "version": "0.10.0",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "org.apache.httpcomponents",
+                "artifact": "httpclient",
+                "version": "4.4.1",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.apache.httpcomponents",
+                "artifact": "httpcore",
+                "version": "4.4.1",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.slf4j",
+                "artifact": "slf4j-api",
+                "version": "1.7.25",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "commons-logging",
+                "artifact": "commons-logging",
+                "version": "1.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.slf4j",
+                "artifact": "slf4j-api",
+                "version": "1.7.25",
+                "packaging": "jar"
+            },
+            {
+                "group": "commons-codec",
+                "artifact": "commons-codec",
+                "version": "1.9",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.apache.httpcomponents",
+                "artifact": "httpclient",
+                "version": "4.4.1",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.apache.httpcomponents",
+                "artifact": "httpcore",
+                "version": "4.4.1",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "org.apache.thrift_libthrift_0.10.0.jar",
+        "file_digest": {
+            "fingerprint": "8591718c1884ac8001b4c5ca80f349c0a6deec691de0af720c5e3bc3a581dada",
+            "serialized_bytes_length": 236865
+        }
+    },
+    {
+        "coord": {
+            "group": "org.apache.yetus",
+            "artifact": "audience-annotations",
+            "version": "0.5.0",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "org.apache.yetus_audience-annotations_0.5.0.jar",
+        "file_digest": {
+            "fingerprint": "c82631f06c75d46bf6524d95f0d6c2e3aef1b3eb4a7b584ca296624ef0d474be",
+            "serialized_bytes_length": 20437
+        }
+    },
+    {
+        "coord": {
+            "group": "org.apache.zookeeper",
+            "artifact": "zookeeper-jute",
+            "version": "3.5.6",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "org.apache.yetus",
+                "artifact": "audience-annotations",
+                "version": "0.5.0",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.apache.yetus",
+                "artifact": "audience-annotations",
+                "version": "0.5.0",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "org.apache.zookeeper_zookeeper-jute_3.5.6.jar",
+        "file_digest": {
+            "fingerprint": "a31b6a604894ef9cb8075c828061f390c598b5baceea088230315c7795cee50a",
+            "serialized_bytes_length": 250329
+        }
+    },
+    {
+        "coord": {
+            "group": "org.apache.zookeeper",
+            "artifact": "zookeeper",
+            "version": "3.5.6",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "org.apache.zookeeper",
+                "artifact": "zookeeper-jute",
+                "version": "3.5.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.slf4j",
+                "artifact": "slf4j-log4j12",
+                "version": "1.7.25",
+                "packaging": "jar"
+            },
+            {
+                "group": "log4j",
+                "artifact": "log4j",
+                "version": "1.2.17",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-handler",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.slf4j",
+                "artifact": "slf4j-api",
+                "version": "1.7.25",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-transport-native-epoll",
+                "version": "4.1.42.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.apache.yetus",
+                "artifact": "audience-annotations",
+                "version": "0.5.0",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.apache.zookeeper",
+                "artifact": "zookeeper-jute",
+                "version": "3.5.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.slf4j",
+                "artifact": "slf4j-log4j12",
+                "version": "1.7.25",
+                "packaging": "jar"
+            },
+            {
+                "group": "log4j",
+                "artifact": "log4j",
+                "version": "1.2.17",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-handler",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.slf4j",
+                "artifact": "slf4j-api",
+                "version": "1.7.25",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-transport-native-epoll",
+                "version": "4.1.42.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.apache.yetus",
+                "artifact": "audience-annotations",
+                "version": "0.5.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-transport",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-buffer",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-transport-native-unix-common",
+                "version": "4.1.42.Final",
+                "packaging": "jar"
+            },
+            {
+                "group": "io.netty",
+                "artifact": "netty-common",
+                "version": "4.1.66.Final",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "org.apache.zookeeper_zookeeper_3.5.6.jar",
+        "file_digest": {
+            "fingerprint": "885df81cfb32d83e12284a5e4cb1f6389cfac01b003bcff4677619e1cb75cd0d",
+            "serialized_bytes_length": 984810
+        }
+    },
+    {
+        "coord": {
+            "group": "org.checkerframework",
+            "artifact": "checker-compat-qual",
+            "version": "2.5.2",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "org.checkerframework_checker-compat-qual_2.5.2.jar",
+        "file_digest": {
+            "fingerprint": "d7291cebf5e158d169807ae49d4b16ff672986f0c6d803e5f207c40cb61ef982",
+            "serialized_bytes_length": 5816
+        }
+    },
+    {
+        "coord": {
+            "group": "org.checkerframework",
+            "artifact": "checker-qual",
+            "version": "3.10.0",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "org.checkerframework_checker-qual_3.10.0.jar",
+        "file_digest": {
+            "fingerprint": "a4dc882ca6aac496d33381e5e5eb0604c45483b004bc3eac9368f1bb17cb2512",
+            "serialized_bytes_length": 207036
+        }
+    },
+    {
+        "coord": {
+            "group": "org.codehaus.mojo",
+            "artifact": "animal-sniffer-annotations",
+            "version": "1.14",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "org.codehaus.mojo_animal-sniffer-annotations_1.14.jar",
+        "file_digest": {
+            "fingerprint": "2068320bd6bad744c3673ab048f67e30bef8f518996fa380033556600669905d",
+            "serialized_bytes_length": 3482
+        }
+    },
+    {
+        "coord": {
+            "group": "org.hamcrest",
+            "artifact": "hamcrest-core",
+            "version": "1.3",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "org.hamcrest_hamcrest-core_1.3.jar",
+        "file_digest": {
+            "fingerprint": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9",
+            "serialized_bytes_length": 45024
+        }
+    },
+    {
+        "coord": {
+            "group": "org.javassist",
+            "artifact": "javassist",
+            "version": "3.18.1-GA",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "org.javassist_javassist_3.18.1-GA.jar",
+        "file_digest": {
+            "fingerprint": "3fb71231afd098bb0f93f5eb97aa8291c8d0556379125e596f92ec8f944c6162",
+            "serialized_bytes_length": 714194
+        }
+    },
+    {
+        "coord": {
+            "group": "org.mockito",
+            "artifact": "mockito-all",
+            "version": "1.10.19",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "org.mockito_mockito-all_1.10.19.jar",
+        "file_digest": {
+            "fingerprint": "d1a7a7ef14b3db5c0fc3e0a63a81b374b510afe85add9f7984b97911f4c70605",
+            "serialized_bytes_length": 1234599
+        }
+    },
+    {
+        "coord": {
+            "group": "org.mockito",
+            "artifact": "mockito-core",
+            "version": "1.10.19",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "org.hamcrest",
+                "artifact": "hamcrest-core",
+                "version": "1.3",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.objenesis",
+                "artifact": "objenesis",
+                "version": "2.1",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.hamcrest",
+                "artifact": "hamcrest-core",
+                "version": "1.3",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.objenesis",
+                "artifact": "objenesis",
+                "version": "2.1",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "org.mockito_mockito-core_1.10.19.jar",
+        "file_digest": {
+            "fingerprint": "d5831ee4f71055800821a34a3051cf1ed5b3702f295ffebd50f65fb5d81a71b8",
+            "serialized_bytes_length": 1172979
+        }
+    },
+    {
+        "coord": {
+            "group": "org.objenesis",
+            "artifact": "objenesis",
+            "version": "2.1",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "org.objenesis_objenesis_2.1.jar",
+        "file_digest": {
+            "fingerprint": "c74330cc6b806c804fd37e74487b4fe5d7c2750c5e15fbc6efa13bdee1bdef80",
+            "serialized_bytes_length": 41755
+        }
+    },
+    {
+        "coord": {
+            "group": "org.openjdk.jmh",
+            "artifact": "jmh-core",
+            "version": "1.27",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "net.sf.jopt-simple",
+                "artifact": "jopt-simple",
+                "version": "4.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.apache.commons",
+                "artifact": "commons-math3",
+                "version": "3.2",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "net.sf.jopt-simple",
+                "artifact": "jopt-simple",
+                "version": "4.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.apache.commons",
+                "artifact": "commons-math3",
+                "version": "3.2",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "org.openjdk.jmh_jmh-core_1.27.jar",
+        "file_digest": {
+            "fingerprint": "e4c85e46181db5d3963ad7cd67f300f3fe974684725583f11210310dc7176442",
+            "serialized_bytes_length": 544880
+        }
+    },
+    {
+        "coord": {
+            "group": "org.scala-lang.modules",
+            "artifact": "scala-collection-compat_2.13",
+            "version": "2.4.4",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "org.scala-lang.modules_scala-collection-compat_2.13_2.4.4.jar",
+        "file_digest": {
+            "fingerprint": "f17aec79f7588c60c028d879affe1bbbb92b3d2475cf8fa44b0afb9d3da2861f",
+            "serialized_bytes_length": 5609
+        }
+    },
+    {
+        "coord": {
+            "group": "org.scala-lang.modules",
+            "artifact": "scala-parser-combinators_2.13",
+            "version": "1.1.2",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "org.scala-lang.modules_scala-parser-combinators_2.13_1.1.2.jar",
+        "file_digest": {
+            "fingerprint": "5c285b72e6dc0a98e99ae0a1ceeb4027dab9adfa441844046bd3f19e0efdcb54",
+            "serialized_bytes_length": 225338
+        }
+    },
+    {
+        "coord": {
+            "group": "org.scala-lang.modules",
+            "artifact": "scala-xml_2.13",
+            "version": "1.2.0",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "org.scala-lang.modules_scala-xml_2.13_1.2.0.jar",
+        "file_digest": {
+            "fingerprint": "213d2b7840bed5d1a1d5abfa1d72d7c7454473a6f77ea329fff0574910056fd3",
+            "serialized_bytes_length": 568727
+        }
+    },
+    {
+        "coord": {
+            "group": "org.scala-lang",
+            "artifact": "scala-library",
+            "version": "2.13.6",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "org.scala-lang_scala-library_2.13.6.jar",
+        "file_digest": {
+            "fingerprint": "f19ed732e150d3537794fd3fe42ee18470a3f707efd499ecd05a99e727ff6c8a",
+            "serialized_bytes_length": 5955737
+        }
+    },
+    {
+        "coord": {
+            "group": "org.scala-lang",
+            "artifact": "scala-reflect",
+            "version": "2.13.6",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "org.scala-lang_scala-reflect_2.13.6.jar",
+        "file_digest": {
+            "fingerprint": "f713593809b387c60935bb9a940dfcea53bd0dbf8fdc8d10739a2896f8ac56fa",
+            "serialized_bytes_length": 3769997
+        }
+    },
+    {
+        "coord": {
+            "group": "org.scala-sbt",
+            "artifact": "test-interface",
+            "version": "1.0",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "org.scala-sbt_test-interface_1.0.jar",
+        "file_digest": {
+            "fingerprint": "15f70b38bb95f3002fec9aea54030f19bb4ecfbad64c67424b5e5fea09cd749e",
+            "serialized_bytes_length": 14755
+        }
+    },
+    {
+        "coord": {
+            "group": "org.scalacheck",
+            "artifact": "scalacheck_2.13",
+            "version": "1.15.4",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-sbt",
+                "artifact": "test-interface",
+                "version": "1.0",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-sbt",
+                "artifact": "test-interface",
+                "version": "1.0",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "org.scalacheck_scalacheck_2.13_1.15.4.jar",
+        "file_digest": {
+            "fingerprint": "ebe8ffc5edeeafddddba810111bad7477a3cc31b59760bc3b4e24aaf53f69f72",
+            "serialized_bytes_length": 690950
+        }
+    },
+    {
+        "coord": {
+            "group": "org.scalactic",
+            "artifact": "scalactic_2.13",
+            "version": "3.1.2",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-reflect",
+                "version": "2.13.6",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-reflect",
+                "version": "2.13.6",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "org.scalactic_scalactic_2.13_3.1.2.jar",
+        "file_digest": {
+            "fingerprint": "6977c34cabeacca7c0d8f3be0c3f5644ddd922b4af7c32d5a59ca561807e728d",
+            "serialized_bytes_length": 1551749
+        }
+    },
+    {
+        "coord": {
+            "group": "org.scalatest",
+            "artifact": "scalatest_2.13",
+            "version": "3.1.2",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-reflect",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-xml_2.13",
+                "version": "1.2.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scalactic",
+                "artifact": "scalactic_2.13",
+                "version": "3.1.2",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-reflect",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-xml_2.13",
+                "version": "1.2.0",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scalactic",
+                "artifact": "scalactic_2.13",
+                "version": "3.1.2",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "org.scalatest_scalatest_2.13_3.1.2.jar",
+        "file_digest": {
+            "fingerprint": "94b636ce8dc2caed3069069c97b94538e60e9a400833fb8086c8271978ad2c21",
+            "serialized_bytes_length": 6884879
+        }
+    },
+    {
+        "coord": {
+            "group": "org.scalatestplus",
+            "artifact": "junit-4-12_2.13",
+            "version": "3.1.2.0",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "junit",
+                "artifact": "junit",
+                "version": "4.12",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scalatest",
+                "artifact": "scalatest_2.13",
+                "version": "3.1.2",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.scalatest",
+                "artifact": "scalatest_2.13",
+                "version": "3.1.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-reflect",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "junit",
+                "artifact": "junit",
+                "version": "4.12",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scalactic",
+                "artifact": "scalactic_2.13",
+                "version": "3.1.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.hamcrest",
+                "artifact": "hamcrest-core",
+                "version": "1.3",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-xml_2.13",
+                "version": "1.2.0",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "org.scalatestplus_junit-4-12_2.13_3.1.2.0.jar",
+        "file_digest": {
+            "fingerprint": "3568bd7753058ba69f5f1983eacc807b310487d1e0177e0232fd573550c5b3d6",
+            "serialized_bytes_length": 79473
+        }
+    },
+    {
+        "coord": {
+            "group": "org.scalatestplus",
+            "artifact": "mockito-1-10_2.13",
+            "version": "3.1.0.0",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "org.mockito",
+                "artifact": "mockito-core",
+                "version": "1.10.19",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scalatest",
+                "artifact": "scalatest_2.13",
+                "version": "3.1.2",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.objenesis",
+                "artifact": "objenesis",
+                "version": "2.1",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.mockito",
+                "artifact": "mockito-core",
+                "version": "1.10.19",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scalatest",
+                "artifact": "scalatest_2.13",
+                "version": "3.1.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.hamcrest",
+                "artifact": "hamcrest-core",
+                "version": "1.3",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "org.scalatestplus_mockito-1-10_2.13_3.1.0.0.jar",
+        "file_digest": {
+            "fingerprint": "dd435717f661f9844f23d95abf980c7877e9702461b619559fce9b6a94f07249",
+            "serialized_bytes_length": 3853
+        }
+    },
+    {
+        "coord": {
+            "group": "org.scalatestplus",
+            "artifact": "scalacheck-1-14_2.13",
+            "version": "3.1.2.0",
+            "packaging": "jar"
+        },
+        "directDependencies": [
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scalacheck",
+                "artifact": "scalacheck_2.13",
+                "version": "1.15.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scalatest",
+                "artifact": "scalatest_2.13",
+                "version": "3.1.2",
+                "packaging": "jar"
+            }
+        ],
+        "dependencies": [
+            {
+                "group": "org.scalatest",
+                "artifact": "scalatest_2.13",
+                "version": "3.1.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scalacheck",
+                "artifact": "scalacheck_2.13",
+                "version": "1.15.4",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-reflect",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scalactic",
+                "artifact": "scalactic_2.13",
+                "version": "3.1.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-xml_2.13",
+                "version": "1.2.0",
+                "packaging": "jar"
+            }
+        ],
+        "file_name": "org.scalatestplus_scalacheck-1-14_2.13_3.1.2.0.jar",
+        "file_digest": {
+            "fingerprint": "dfd4223867bd47956ed419cd5c7596e71ecb03581f255c822d48e2562da66b8c",
+            "serialized_bytes_length": 100134
+        }
+    },
+    {
+        "coord": {
+            "group": "org.slf4j",
+            "artifact": "slf4j-api",
+            "version": "1.7.25",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "org.slf4j_slf4j-api_1.7.25.jar",
+        "file_digest": {
+            "fingerprint": "18c4a0095d5c1da6b817592e767bb23d29dd2f560ad74df75ff3961dbde25b79",
+            "serialized_bytes_length": 41203
+        }
+    },
+    {
+        "coord": {
+            "group": "org.slf4j",
+            "artifact": "slf4j-log4j12",
+            "version": "1.7.25",
+            "packaging": "jar"
+        },
+        "directDependencies": [],
+        "dependencies": [],
+        "file_name": "org.slf4j_slf4j-log4j12_1.7.25.jar",
+        "file_digest": {
+            "fingerprint": "ddb343954deb6f046f862606c534178730c02ed23d0b7f6ca1012c1e3fa74273",
+            "serialized_bytes_length": 12244
+        }
+    }
+]

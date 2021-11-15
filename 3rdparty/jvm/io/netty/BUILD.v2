@@ -1,42 +1,79 @@
+NETTY4_VERSION = "4.1.66.Final"
+NETTY4_STATIC_VERSION = "2.0.40.Final"
+
 jvm_artifact(
-  name='netty4',
+  name='netty',
   group='io.netty',
-  artifact='netty4',
-  version='TODO',
+  artifact='netty-transport',
+  version=NETTY4_VERSION,
+  packages=[
+    'io.netty.channel.**',
+    'io.netty.bootstrap.**',
+  ],
 )
 
 jvm_artifact(
-  name='netty4-codec',
+  name='netty-buffer',
   group='io.netty',
-  artifact='netty4-codec',
-  version='TODO',
+  artifact='netty-buffer',
+  version=NETTY4_VERSION,
+  packages=[
+    'io.netty.buffer.**',
+  ],
 )
 
 jvm_artifact(
-  name='netty4-codec-http',
+  name='netty-common',
   group='io.netty',
-  artifact='netty4-codec-http',
-  version='TODO',
+  artifact='netty-common',
+  version=NETTY4_VERSION,
+  packages=[
+    'io.netty.util.**',
+  ],
 )
 
 jvm_artifact(
-  name='netty4-codec-http2',
+  name='netty-codec',
   group='io.netty',
-  artifact='netty4-codec-http2',
-  version='TODO',
+  artifact='netty-codec',
+  version=NETTY4_VERSION,
 )
 
 jvm_artifact(
-  name='netty4-handler-proxy',
+  name='netty-codec-http',
   group='io.netty',
-  artifact='netty4-handler-proxy',
-  version='TODO',
+  artifact='netty-codec-http',
+  version=NETTY4_VERSION,
 )
 
 jvm_artifact(
-  name='netty4-tcnative-boringssl-static',
+  name='netty-codec-http2',
   group='io.netty',
-  artifact='netty4-tcnative-boringssl-static',
-  version='TODO',
+  artifact='netty-codec-http2',
+  version=NETTY4_VERSION,
+)
+
+jvm_artifact(
+  name='netty-handler',
+  group='io.netty',
+  artifact='netty-handler',
+  version=NETTY4_VERSION,
+  packages=[
+    'io.netty.handler.**',
+  ],
+)
+
+jvm_artifact(
+  name='netty-handler-proxy',
+  group='io.netty',
+  artifact='netty-handler-proxy',
+  version=NETTY4_VERSION,
+)
+
+jvm_artifact(
+  name='netty-tcnative-boringssl-static',
+  group='io.netty',
+  artifact='netty-tcnative-boringssl-static',
+  version=NETTY4_STATIC_VERSION,
 )
 

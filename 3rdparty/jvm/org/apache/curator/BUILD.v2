@@ -2,13 +2,16 @@ jvm_artifact(
   name='curator-framework',
   group='org.apache.curator',
   artifact='curator-framework',
-  version='TODO',
+  version='2.8.0',
 )
 
 jvm_artifact(
   name='curator-test',
   group='org.apache.curator',
   artifact='curator-test',
-  version='TODO',
+  version='2.8.0',
+  packages=[
+    'org.apache.curator.test.**',
+  ],
 )
 

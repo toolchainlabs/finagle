@@ -2,6 +2,6 @@ jvm_artifact(
   name='jsr305',
   group='com.google.code.findbugs',
   artifact='jsr305',
-  version='TODO',
+  version='2.0.1',
 )
 

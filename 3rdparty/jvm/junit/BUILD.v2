@@ -2,6 +2,6 @@ jvm_artifact(
   name='junit',
   group='junit',
   artifact='junit',
-  version='TODO',
+  version='4.12',
 )
 
