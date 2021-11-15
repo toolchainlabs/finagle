@@ -1,0 +1,30 @@
+[GLOBAL]
+pants_version = "2.9.0.dev0"
+
+# Keep in sync with `[tailor].build_file_name`.
+build_patterns = ["BUILD.v2"]
+
+backend_packages.add = [
+  "pants.backend.experimental.java",
+  "pants.backend.experimental.java.debug_goals",
+  "pants.backend.experimental.scala",
+  "pants.backend.experimental.scala.debug_goals",
+]
+
+[tailor]
+# Keep in sync with `[GLOBAL].build_patterns`.
+build_file_name = "BUILD.v2"
+
+[jvm]
+default_resolve = 'default'
+resolves = '''{
+  "default": "3rdparty/jvm/default.lockfile",
+}'''
+
+[java-infer.third_party_import_mapping]
+# NB: We specify these here rather than on `jvm_artifact` targets because... we don't have any.
+# they are created dynamically by the macros in `pants-plugins/v2-compatibility-macros.py`.
+
+[anonymous-telemetry]
+enabled = true
+repo_id = "9C28AB03-432A-40CD-96F4-4D04FB6A2B09"
